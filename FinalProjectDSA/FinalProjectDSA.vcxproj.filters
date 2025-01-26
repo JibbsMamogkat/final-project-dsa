@@ -13,15 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{104e073b-d8af-4e08-aad7-8b90c7ddedf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model Headers">
+      <UniqueIdentifier>{cd7bb917-2586-408a-98bc-6167e9dc6215}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="userClasses.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="userClasses.h">
+      <Filter>Header Files\Model Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
